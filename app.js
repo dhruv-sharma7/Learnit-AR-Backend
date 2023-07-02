@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 
 const app = express();
-app.use(express.static('A')); 
+app.use(express.static('Markers')); 
 
 // Enable CORS for all routes
 app.use(cors());
