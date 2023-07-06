@@ -8,12 +8,12 @@ app.use(express.static('Markers'));
 app.use(cors());
 
 // Handling GET request
-app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/Frontend/index.html');
-  });
-app.get('/', (req, res) => {
-    res.send('A simple Node App is running on thi');
-});
+// app.get('/', (req, res) => {
+//     res.sendFile(__dirname + '/Frontend/index.html');
+//   });
+// app.get('/', (req, res) => {
+//     res.send('A simple Node App is running on thi');
+// });
 
 const PORT = process.env.PORT || 3000;
 
